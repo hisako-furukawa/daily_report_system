@@ -20,7 +20,7 @@ import utils.DBUtil;
  */
 @WebServlet("/index.html")
 public class TopPageIndexServlet extends HttpServlet {
-    private static final long serialVersionUID = 1L;
+        private static final long serialVersionUID = 1L;
 
     /**
      * @see HttpServlet#HttpServlet()
@@ -68,4 +68,5 @@ public class TopPageIndexServlet extends HttpServlet {
         RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/views/topPage/index.jsp");
         rd.forward(request, response);
     }
+
 }

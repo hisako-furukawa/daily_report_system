@@ -63,5 +63,4 @@ public class ReportsIndexServlet extends HttpServlet {
         rd.forward(request, response);
     }
 
-
 }
